@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Shell leeren
-clear
+#clear
 
 #Projektnamen aus Datei data/_temp/name auslesen
 name=$(cat cloud/data/_temp/name)
