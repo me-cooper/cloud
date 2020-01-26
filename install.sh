@@ -21,9 +21,7 @@ if [ "${distroname}" == "Raspbian GNU/Linux 10 (buster)" ]; then
 	echo "" > cloud/data/_temp/base
 	#Temp-Dateien löschen
 	sudo rm -R cloud/data/_temp/*
-	#Temporäre Datei erstellen
-	echo $(hostname) > cloud/data/_temp/hostname
-	echo $(whoami) > cloud/data/_temp/logged_in_user
+	
 	sudo bash cloud/data/cloud.sh
 else
   printf "\nDein Betriebssystem wird nicht unterstützt!\nSystemupdate fällig!\n\nBenötigte Version:\nRaspbian GNU/Linux 10 (buster)\n\n"
