@@ -1,0 +1,13 @@
+mariadb-server
+apache2
+php
+libapache2-mod-php
+php-mysql
+php-zip
+php-xml
+php-mbstring
+php-gd
+php-curl
+php-intl
+php-imagick
+php-apcu
