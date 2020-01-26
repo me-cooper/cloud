@@ -5,6 +5,10 @@
 #### In Linux Terminal
 
 ```
+sudo apt install git
+```
+
+```
 git clone https://github.com/makesmartnet/cloud.git
 ```
 
