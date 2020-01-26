@@ -18,7 +18,7 @@ if [ "${distroname}" == "Raspbian GNU/Linux 10 (buster)" ]; then
 	#_temp Order erstellen
 	sudo mkdir cloud/data/_temp
 	#Temporäre Datei erstellen
-	echo $(hostname) > cloud/data/_temp/base
+	echo "" > cloud/data/_temp/base
 	#Temp-Dateien löschen
 	sudo rm -R cloud/data/_temp/*
 	#Temporäre Datei erstellen
