@@ -30,15 +30,15 @@ sudo rm "$name".zip
 
 clear
 clear
-printf "Warte... Cloud wird entpackt.\n"
+printf "Warte... $name wird entpackt.\n"
 sudo cp -a nextcloud/. .
 clear
-printf "Gleich gehts weiter ... Dateien werden gelöscht.\n"
+printf "Gleich gehts weiter ... überflüssige Dateien werden gelöscht.\n"
 sudo rm nextcloud
 clear
 
 figlet $name
-printf "Erstelle dein Cloud-Login\n\n"
+printf "Erstelle dein $name-Login\n\n"
 printf "\t\tBenutzername: "
 read cloud_username
 printf "\n\t\tPasswort: "
