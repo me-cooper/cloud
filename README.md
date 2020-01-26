@@ -6,7 +6,6 @@
 
 ```
 git clone https://github.com/makesmartnet/cloud.git
-
 ```
 
 ```
