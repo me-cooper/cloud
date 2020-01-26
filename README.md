@@ -9,7 +9,7 @@ Install git
 sudo apt install git
 ```
 
-Download installer
+Download installer via git
 ```
 git clone https://github.com/makesmartnet/cloud.git
 ```
