@@ -33,4 +33,4 @@ printf "Passwort: $cloud_pw"
 printf "\n\n\n\n"
 
 #Temp-Dateien löschen
-sudo rm -R cloud/data/_temp/*
+sudo rm -R cloud/data/_temp
