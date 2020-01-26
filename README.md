@@ -14,7 +14,7 @@ Download installer via git
 git clone https://github.com/makesmartnet/cloud.git
 ```
 
-Start installer
+Start installation
 ```
 bash cloud/install.sh
 ```
