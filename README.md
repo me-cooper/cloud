@@ -1,20 +1,25 @@
 # cloud
 
-### How to install cloud
+### !Beta!
 
-#### In Linux Terminal
+### Cloud-Software "Nextcloud" installieren
 
-Install git
+1. git installieren
 ```
 sudo apt install git
 ```
 
-Download installer via git
+2. Installer via git downloaden
 ```
 git clone https://github.com/makesmartnet/cloud.git
 ```
 
-Start installation
+### Installation
+
+####
+
+Optimiert für Raspbian 10 (Buster)
 ```
 bash cloud/install.sh
 ```
+
