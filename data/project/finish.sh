@@ -34,3 +34,6 @@ printf "\n\n\n\n"
 
 #Temp-Dateien löschen
 sudo rm -R cloud/data/_temp
+
+#Webserver neustarten
+sudo systemctl restart apache2.service
