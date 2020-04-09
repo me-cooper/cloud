@@ -11,7 +11,7 @@ sudo apt install git
 
 2. Installer via git downloaden
 ```
-git clone https://github.com/makesmartnet/cloud.git
+git clone https://github.com/me-cooper/cloud.git
 ```
 
 ### Installation
