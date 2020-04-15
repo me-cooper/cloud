@@ -24,7 +24,8 @@ if [ "${distroname}" == "Raspbian GNU/Linux 10 (buster)" ]; then
 	
 	sudo bash cloud/data/cloud.sh
 else
-  printf "\nDein Betriebssystem wird nicht unterstützt!\nSystemupdate fällig!\n\nBenötigte Version:\nRaspbian GNU/Linux 10 (buster)\n\n"
-	printf "Besuche: \n\n\t"
-	printf "http://makesmart.net/makesmart-server-update/\n\n"
+	sudo bash cloud/data/cloud.sh
+  #printf "\nDein Betriebssystem wird nicht unterstützt!\nSystemupdate fällig!\n\nBenötigte Version:\nRaspbian GNU/Linux 10 (buster)\n\n"
+	#printf "Besuche: \n\n\t"
+	#printf "http://makesmart.net/makesmart-server-update/\n\n"
 fi
