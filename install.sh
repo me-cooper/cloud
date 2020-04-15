@@ -24,7 +24,15 @@ if [ "${distroname}" == "Raspbian GNU/Linux 10 (buster)" ]; then
 	
 	sudo bash cloud/data/cloud.sh
 else
+	#_temp Order erstellen
+	sudo mkdir cloud/data/_temp
+	#Temporäre Datei erstellen
+	echo "" > cloud/data/_temp/base
+	#Temp-Dateien löschen
+	sudo rm -R cloud/data/_temp/*
+	
 	sudo bash cloud/data/cloud.sh
+	
   #printf "\nDein Betriebssystem wird nicht unterstützt!\nSystemupdate fällig!\n\nBenötigte Version:\nRaspbian GNU/Linux 10 (buster)\n\n"
 	#printf "Besuche: \n\n\t"
 	#printf "http://makesmart.net/makesmart-server-update/\n\n"
